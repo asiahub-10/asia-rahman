@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>About</title>
+        <link rel="icon" href="./images/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="./css/all.css" />
+        <link rel="stylesheet" href="./css/animate.css" />
+        <link rel="stylesheet" href="./css/bootstrap.css" />
+        <link rel="stylesheet" href="./css/mdb.lite.css" />
+        <link rel="stylesheet" href="./css/mdb.css" />
+        <link rel="stylesheet" href="./css/style.css" />
+    </head>
+    <body>
+
+        <!--header-->
+        <section class="bg-about">
+            <header class="card bg-transparent text-center h-100">
+                <div class="">
+                    <div class="header-text font-italic">
+                        <div class="wow flipInX">
+                            <p class="pt-3">Hello, I'm <span class="font-weight-bold">Asia Rahman</span>.</p>
+                            <p>Allow me to help you to create your website.</p>
+                        </div>
+                    </div>
+                </div>
+            </header>
+        </section>
+        <!--header-->
+
+        <!--Navbar -->
+        <section style="z-index: 999;" id="navbar">
+            <div class="card rounded-0 shadow-none logo-div" style="">
+                <img src="./images/logo_white1.png" class="logo mx-auto mt-2" alt="Logo" />
+            </div>
+            <nav class="navbar navbar-expand-sm bg-white text-center navbar-pt">
+                <button class="navbar-toggler mx-auto" type="button" data-toggle="collapse" data-target="#menu"
+                        aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"><i class="fas fa-bars nav-icon"></i></span>
+                </button>
+                <div class="collapse navbar-collapse " id="menu">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Skill</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Work</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </section>
+        <!--/.Navbar -->
+
+        <!--about-->
+        <section>
+            <div class="container" >
+                <div class="row">
+                    <div class="col-sm-6 text-center">
+                        <h1>Who am I?</h1>
+                        <p>I'm Asia Rahman, a web designer and developer. I design both static and dynamic websites that are simple, effective, user-centric and responsive as well.</p>
+                        <p>In the spirit of continuous improvement and learning, I love to design and create user interface stuff that works well and looks good. You're welcome to have a look at
+                            <a href="work.html" class="font-weight-bold">my work</a>.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--about-->
+
+        <!--contact-->
+        <section class="contact">
+            <div class="card rounded-0 rgba-red-strong container-fluid px-0">
+                <div class="row">
+                    <div class="col-sm-12 text-center text-white contact-text px-5 wow bounceIn" data-wow-delay=".25s">
+                        <h1 class="font-weight-bold text-uppercase contact-header">Let's work together.</h1>
+                        <p class="contact-para">Have a project that you'd like to discuss with me?</p>
+                        <p class="contact-para">Send a mail to
+                            <span class="font-weight-bold font-italic text-dark" style="text-shadow: 2px 2px 4px white;">asiarahman104@gmail.com</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="triangle"></div>
+            </div>
+        </section>
+        <!--contact-->
+
+        <!--footer-->
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 text-center pb-4">
+                        <h3 class="text-uppercase text-muted mb-4 footer-title">stay connected with</h3>
+
+                        <a href="https://www.facebook.com/asiarahman.shorna" target="_blank" title="Facebook"><img src="./images/fb.png" alt="Icon" class="social-icon" /></a>
+                        <a href="https://twitter.com/AsiaShorna" target="_blank" title="Twitter"><img src="./images/twitter.png" alt="Icon" class="social-icon" /></a>
+                        <a href="https://bd.linkedin.com/in/asia-rahman-647875b4?trk=people-guest_profile-result-card_result-card_full-click" target="_blank" title="LinkedIn"><img src="./images/linkedin.png" alt="Icon" class="social-icon" /></a>
+                        <a href="https://github.com/asiahub-10" target="_blank" title="Github"><img src="./images/github.png" alt="Icon" class="social-icon" /></a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 text-center pb-5 text-muted">
+                        <hr style="background-color: #c0504d;"/>
+                        <p class="m-0">&copy;2020 Asia Rahman. Designed by <span class="font-italic font-weight-bold text-color">Asia Rahman</span>.</p>
+                        <p class="m-0">All Rights Reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--footer-->
+
+
+        <script>
+            window.onscroll = function() {myFunction()};
+
+            var navbar = document.getElementById("navbar");
+            var sticky = navbar.offsetTop;
+
+            function myFunction() {
+                if (window.pageYOffset >= sticky) {
+                    navbar.classList.add("sticky")
+                } else {
+                    navbar.classList.remove("sticky");
+                }
+            }
+        </script>
+        <script src="./js/wow.min.js"></script>
+        <script src="./js/jquery-3.4.1.min.js"></script>
+        <script src="./js/bootstrap.js"></script>
+        <script src="./js/mdb.js"></script>
+        <script src="./js/script.js"></script>
+
+
+    </body>
+</html>
