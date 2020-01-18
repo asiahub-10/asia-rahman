@@ -31,8 +31,8 @@ body, html {
 .bg-about
 {
     height: 50%;
-    background-image: url("../images/white-bg.jpg");
-    background-position: center;
+    background-image: url("../images/bg-about.jpg");
+    background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
@@ -302,6 +302,45 @@ body, html {
 {
     font-size: 50px;
 }
+.center
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.hi
+{
+    font-size: 80px;
+}
+.about
+{
+    line-height: 38px;
+}
+
+/*======================*/
+/*content*/
+/*======================*/
+
+.shade-bg
+{
+    background-image: url("../images/shade_bg.jpg");
+    /*height: 100%;*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+/*.about-divider*/
+/*{*/
+    /*position: absolute;*/
+    /*height: 800px;*/
+    /*width: 60%;*/
+    /*right: -150px;*/
+    /*top: -100px;*/
+    /*transform: rotate(40deg);*/
+    /*background-color: #c0504d;*/
+/*}*/
 
 /*======================*/
 /*contact*/
@@ -315,22 +354,22 @@ body, html {
 .bar1
 {
     width: 100%;
-    height: 100px;
+    height: 150px;
     background: white;
     position: absolute;
     transform: rotate(-7deg);
-    left: -100px;
-    top: -70px;
+    left: -80px;
+    top: -120px;
 }
 .bar2
 {
     width: 100%;
-    height: 100px;
+    height: 150px;
     background: white;
     position: absolute;
     transform: rotate(7deg);
-    right: -100px;
-    top: -70px;
+    right: -80px;
+    top: -120px;
 }
 .triangle {
     width: 100%;
@@ -451,6 +490,21 @@ body, html {
     {
         padding-top: 40px;
     }
+    .center
+    {
+        position: relative;
+        margin-bottom: 30px;
+    }
+    .hi
+    {
+        font-size: 40px;
+    }
+    .about
+    {
+        line-height: 38px;
+        font-size: 20px;
+    }
+
 }
 @media screen and (min-width: 576px) and (max-width: 767.98px)
 {
@@ -478,6 +532,11 @@ body, html {
     .contact-header
     {
         font-size: 32px;
+    }
+    .center
+    {
+        position: relative;
+        margin-bottom: 30px;
     }
 }
 @media screen and (min-width: 768px) and (max-width: 991.98px)
