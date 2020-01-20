@@ -10,6 +10,10 @@ body, html {
 {
     color: #c0504d;
 }
+.bg-color
+{
+    background-color: #c0504d;
+}
 
 /*======================*/
     /*header*/
@@ -32,6 +36,15 @@ body, html {
 {
     height: 50%;
     background-image: url("../images/bg-about.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.bg-skill
+{
+    height: 50%;
+    background-image: url("../images/bg-skill.jpg");
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -331,17 +344,24 @@ body, html {
     background-size: cover;
     overflow: hidden;
 }
-/*.about-divider*/
-/*{*/
-    /*position: absolute;*/
-    /*height: 800px;*/
-    /*width: 60%;*/
-    /*right: -150px;*/
-    /*top: -100px;*/
-    /*transform: rotate(40deg);*/
-    /*background-color: #c0504d;*/
-/*}*/
 
+.service-list
+{
+    font-size: 22px;
+    line-height: 40px;
+}
+.design-div
+{
+    text-align: left;
+}
+.develop-div
+{
+    text-align: right;
+}
+.star-color
+{
+    color: #f7f7f7;
+}
 /*======================*/
 /*contact*/
 /*======================*/
@@ -504,6 +524,47 @@ body, html {
         line-height: 38px;
         font-size: 20px;
     }
+    .design-div
+    {
+        text-align: center;
+        background-color: #dedddb;
+        font-size: 12px;
+    }
+    .design-div h1
+    {
+        font-size: 33px;
+        font-weight: bold;
+    }
+    .design-div ul li
+    {
+        list-style-position: inside;
+        font-size: 20px;
+    }
+    .develop-div
+    {
+        text-align: center;
+        background-color: #c0504d;
+        font-size: 12px;
+    }
+    .develop-div h1
+    {
+        font-size: 33px;
+        font-weight: bold;
+    }
+    .develop-div ul li
+    {
+        list-style-position: inside;
+        direction: ltr;
+        font-size: 20px;
+    }
+    .design-develop-heading
+    {
+        font-size: 25px;
+    }
+    .star-text
+    {
+        font-size: x-small;
+    }
 
 }
 @media screen and (min-width: 576px) and (max-width: 767.98px)
@@ -537,6 +598,24 @@ body, html {
     {
         position: relative;
         margin-bottom: 30px;
+    }
+    .design-div
+    {
+        text-align: center;
+        background-color: #dedddb;
+    }
+    .design-div ul li
+    {
+        list-style-position: inside;
+    }
+    .develop-div
+    {
+        text-align: center;
+        background-color: #c0504d;
+    }
+    .develop-div ul li
+    {
+        list-style-position: inside;
     }
 }
 @media screen and (min-width: 768px) and (max-width: 991.98px)
